@@ -275,39 +275,3 @@ python FuseModelChecking.py
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启 Pull Request
 
-## 📄 许可证
-
-本项目基于 MIT 许可证开源 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 📚 参考文献
-
-```bibtex
-@inproceedings{liu2022automatic,
-  title={Automatic Depression Detection: a GRU/BiLSTM-based Model and An Emotional Audio-Textual Corpus},
-  author={Liu, Yiming and Li, Xiaoming and Zhang, Yifan and Zhang, Yiming and Wang, Yuxuan and Li, Jianqing},
-  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={6247--6251},
-  year={2022},
-  organization={IEEE}
-}
-```
-
-## 📞 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- 项目主页: [GitHub Repository]
-- 论文链接: [ICASSP 2022 Paper](https://arxiv.org/pdf/2202.08210.pdf)
-- 邮箱: [联系邮箱]
-
-## 🙏 致谢
-
-感谢所有参与EATD-Corpus数据集收集的志愿者和研究人员。本项目基于开源社区的努力，特别感谢以下项目：
-
-- [VGGish](https://github.com/tensorflow/models/tree/master/research/audioset/vggish)
-- [ELMo for Many Languages](https://github.com/HIT-SCIR/ELMoForManyLangs)
-- [NetVLAD](https://github.com/Relja/netvlad)
-
----
-
-⭐ 如果这个项目对您有帮助，请给我们一个星标！
