@@ -2,9 +2,6 @@
 
 基于GRU/BiLSTM的自动抑郁症检测模型和情感音频文本语料库
 
-[![Paper](https://img.shields.io/badge/Paper-ICASSP%202022-blue)](https://arxiv.org/pdf/2202.08210.pdf)
-[![DOI](https://img.shields.io/badge/DOI-10.1109%2FICASSP43922.2022.9746569-green)](https://ieeexplore.ieee.org/abstract/document/9746569/)
-
 ## 📖 项目简介
 
 本项目实现了一个基于多模态融合的自动抑郁症检测系统，结合音频和文本特征，使用深度学习模型（GRU/BiLSTM）进行抑郁症的自动识别。该系统在ICASSP 2022会议上发表，为心理健康评估提供了新的技术方案。
