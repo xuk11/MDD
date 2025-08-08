@@ -1,0 +1,36 @@
+# 深度学习框架
+tensorflow==1.15.0
+keras==2.3.1
+tf-slim==0.1.1
+
+# 音频处理
+librosa==0.8.1
+python-speech-features==0.6
+soundfile==0.10.3.post1
+resampy==0.3.1
+wave==0.0.2
+
+# 数据处理
+numpy==1.19.5
+pandas==1.3.5
+scikit-learn==0.24.2
+scipy==1.7.3
+
+# 中文NLP
+jieba==0.42.1
+pkuseg==0.0.25
+thulac==0.2.1
+elmoformanylangs==0.0.3
+
+# 可视化
+matplotlib==3.3.4
+seaborn==0.11.2
+
+# 工具库
+tqdm==4.62.3
+pickle-mixin==1.0.2
+six==1.16.0
+
+# 系统工具
+os-sys==2.1.3
+pathlib2==2.3.6 
