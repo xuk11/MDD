@@ -62,17 +62,14 @@ Depression/
 
 1. **克隆项目**
 ```bash
-git clone <repository-url>
+git clone https://github.com/xuk11/MDD.git
 cd Depression
 ```
 
 2. **创建虚拟环境**
 ```bash
-python -m venv depression_env
-# Windows
-depression_env\Scripts\activate
-# Linux/Mac
-source depression_env/bin/activate
+conda create -n depression_env python=3.8
+
 ```
 
 3. **安装基础依赖**
@@ -80,45 +77,6 @@ source depression_env/bin/activate
 pip install -r requirements.txt
 ```
 
-4. **安装VGGish依赖**
-```bash
-cd vggish
-pip install -r requirements.txt
-cd ..
-```
-
-### 完整依赖列表
-
-创建 `requirements.txt` 文件：
-
-```txt
-# 深度学习框架
-tensorflow==1.15.0
-keras==2.3.1
-
-# 音频处理
-librosa==0.8.1
-python-speech-features==0.6
-soundfile==0.10.3.post1
-resampy==0.3.1
-
-# 数据处理
-numpy==1.19.5
-pandas==1.3.5
-scikit-learn==0.24.2
-
-# 中文NLP
-jieba==0.42.1
-pkuseg==0.0.25
-thulac==0.2.1
-elmoformanylangs==0.0.3
-
-# 其他工具
-matplotlib==3.3.4
-seaborn==0.11.2
-tqdm==4.62.3
-pickle-mixin==1.0.2
-```
 
 ## 📊 数据集
 
@@ -248,13 +206,4 @@ python FuseModelChecking.py
 - **早期融合**: 特征级融合
 - **晚期融合**: 决策级融合
 - **注意力机制**: 跨模态注意力
-
-
-## 🤝 贡献指南
-
-1. Fork 本项目
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
 
